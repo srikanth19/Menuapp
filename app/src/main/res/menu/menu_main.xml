@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="app.com.example.user.menuapp.MainActivity">
 
+
+    <group android:checkableBehavior="all">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -12,6 +14,6 @@
         android:title="@string/ext"
         android:id="@+id/ext"
         android:orderInCategory="101"
-        app:showAsAction="ifRoom|withText"/>
-
+        app:showAsAction="never|withText"/>
+    </group>
 </menu>
